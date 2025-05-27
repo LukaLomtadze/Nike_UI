@@ -36,7 +36,7 @@ const Nav = () => {
                 <img src={hamburger} alt='Hamb' width={25} height={25} className='cursor-pointer' onClick={() => setOpen(true)} />
             </div>
 
-            <div className={`fixed z-[100] top-0 right-0 h-full w-64 bg-[#1e1e1e] text-white transform transition-transform duration-300 ${open ? "translate-x-0" : "translate-x-full"}`}>
+            <div className={`fixed z-[100] top-0 right-0 h-full w-64 bg-coral-red text-white transform transition-transform duration-300 ${open ? "translate-x-0" : "translate-x-full"}`}>
                 <button onClick={() => setOpen(false)} className="text-2xl z-100 m-4 float-left active:text-white-400">
                      &times;
                 </button>
