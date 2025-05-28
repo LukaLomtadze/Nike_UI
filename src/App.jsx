@@ -7,9 +7,6 @@ import Services from "./sections/Services"
 import SpecialOffer from "./sections/SpecialOffer"
 import CustomerReviews from "./sections/CustomerReviews"
 import Nav from "./components/Nav"
- 
-
-
 const App = () => {
   return(
     <>
