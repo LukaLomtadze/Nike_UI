@@ -32,7 +32,7 @@ const Nav = () => {
                     ))
                 }
             </ul>
-            <div className='hidden max-lg:block fixed top-7 right-8'>
+            <div className='hidden max-lg:block z-[100] fixed top-7 right-8'>
                 <img src={hamburger} alt='Hamb' width={25} height={25} className='cursor-pointer' onClick={() => setOpen(true)} />
             </div>
 
